@@ -1,6 +1,6 @@
 # acer-conquest-lsp-assets
 
-This repository hosts public assets for the private `acer-conquest-lsp` Visual Studio extension repository.
+This repository hosts public assets for the private [`acerorg/acer-conquest-lsp`](https://github.com/acerorg/acer-conquest-lsp) Visual Studio extension repository.
 
 Its primary purpose is to store files that must be publicly accessible when referenced from extension marketplace content, such as README images.
 
