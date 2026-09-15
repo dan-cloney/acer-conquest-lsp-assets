@@ -1,0 +1,1 @@
+ffmpeg -i example.mov -filter_complex "[0:v] fps=12,scale=720:-1:flags=lanczos,split [a][b];[a] palettegen=max_colors=128 [p];[b][p] paletteuse=dither=bayer:bayer_scale=3" example.gif
